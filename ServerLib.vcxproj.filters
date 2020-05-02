@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TinyStringUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfigReader.cpp" />
+    <ClCompile Include="global_func.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="etc">
+      <UniqueIdentifier>{586270a6-50db-43ac-ab29-2556649bb5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{3d7f95ea-8cd3-425b-af5d-17dc51a45297}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TinyStringUtils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfigReader.h" />
+    <ClInclude Include="global_func.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.conf">
+      <Filter>etc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
